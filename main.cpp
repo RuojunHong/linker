@@ -443,13 +443,6 @@ int main(int argc, char* argv[]) {
             print_symbol_table();
             second_pass();
             reset();
-        /**
-        input = fopen(filepath,"r");
-        while (!feof(input)) {
-            //get rid of extra spaces
-           tokenizer();
-        }
-         **/
     }
 
     return 0;
